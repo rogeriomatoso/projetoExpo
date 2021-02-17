@@ -7,9 +7,9 @@ export default class BoasVindas extends Component{
   
         return(
             <View>
-                <Text style={{color: 'brown', fontSize: 24, marginBottom: 30}}>{msgBoasVindaas}</Text>
+                <Text style={{color: 'brown', fontSize: 24, marginTop: 50, marginBottom: 5}}>{msgBoasVindaas}</Text>
                     
             </View>
         )
     }
-  }
+}

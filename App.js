@@ -4,17 +4,15 @@ import ImagemCanyon from './src/components/ImagemCanyon';
 import BoasVindas from './src/components/BoasVindas';
 
 export default class App extends Component{ 
-    render(){
-      let titulo1 = 'PROJETO EXPO';
-      let titulo2 = 'APS - DSI II';
+    render(){      
       let nomeUsuario = 'Genival Lacerda';
       return(
       
         <View style={styles.container}>
          
           <BoasVindas />
-          <Text style={{fontSize: 24 }}>{nomeUsuario}</Text>
-          <ImagemCanyon largura={500} altura={500}/>
+          <Text style={{fontSize: 18 }}>{nomeUsuario}</Text>
+          <ImagemCanyon largura={400} altura={500}/>
           
          
         </View>
