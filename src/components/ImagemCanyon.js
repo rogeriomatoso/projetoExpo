@@ -11,6 +11,7 @@ class ImagemCanyon extends Component{
                     source={{uri: imagem}}
                     style={{width: this.props.largura, height: this.props.altura}}      
                 />
+                <Text style={{marginLeft: 10, marginBottom: 30}}>Clique para acessar o site do Grand Canyon:</Text>
             </View>
         )
     }
